@@ -18,7 +18,6 @@ def pascal(n):
                 tmp.append(r[i-1][j-1] + r[i-1][j])
         r.append(tmp)
         tmp = [] # 清空容器
-        i += 1
     for i in r: #打印
         print i
             
