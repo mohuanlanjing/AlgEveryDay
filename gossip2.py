@@ -55,6 +55,5 @@ def getMigo():
 migo = getMigo()
 
 if __name__ == "__main__":
-    if visit(si, sj):
-        printMigo()
+    visit(si, sj):
 
